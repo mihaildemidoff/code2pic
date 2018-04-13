@@ -1,0 +1,23 @@
+{
+  "telegram": {
+    "secret": "",
+    "timeout": 60,
+    "debug": true
+  },
+  "redis": {
+    "url": "localhost:6379",
+    "password": "",
+    "defaultRecordTimeout": 60000000000
+  },
+  "phantomjs": {
+    "url": "http://localhost:8910",
+    "windowWidth": 1000,
+    "windowHeight": 1000
+  },
+  "httpServer": {
+    "port": 8085,
+    "host": "http://192.168.1.35"
+  },
+  "templateAddress": "index.html",
+  "numberOfGeneratorWorkers": 1000
+}
